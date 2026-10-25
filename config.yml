@@ -1,0 +1,8 @@
+version: 1
+applications:
+    - name: Test
+      artifact:
+        type: github-release
+        repository: OssiPesonen/go-builder-app
+        selector: selector
+        token_env: ""
